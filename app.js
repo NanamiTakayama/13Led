@@ -4,9 +4,9 @@ var v = 0;
 setInterval(function(){
 	v = v ? 0:1;
 	if(v){
-		console.log("LED ON with isaax hikarie");
+		console.log("LED ON with isaax 1203");
 		led.dir(mraa.DIR_OUT);
 	}else{
-		console.log("LED OFF with isaax hikarie");
-	}led.write(v);},10000);
+		console.log("LED OFF with isaax 1203");
+	}led.write(v);},5000);
 

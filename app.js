@@ -8,5 +8,5 @@ setInterval(function(){
 		led.dir(mraa.DIR_OUT);
 	}else{
 		console.log("LED OFF with isaax hikarie");
-	}led.write(v);},500);
+	}led.write(v);},10000);
 

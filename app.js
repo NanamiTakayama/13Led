@@ -1,6 +1,8 @@
 var mraa = require("mraa");
 var led = new mraa.Gpio(13); 
 var v = 0;
+console.log("____AppStarted____");
+
 setInterval(function(){
 	v = v ? 0:1;
 	if(v){

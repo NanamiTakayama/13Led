@@ -10,5 +10,5 @@ setInterval(function(){
 		led.dir(mraa.DIR_OUT);
 	}else{
 		console.log("LED OFF with isaax 1209");
-	}led.write(v);},90000);
+	}led.write(v);},5000);
 
